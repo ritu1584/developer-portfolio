@@ -1,10 +1,12 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 .text-primary {
     color: #FD6E0A;
 }
+
 .btn-primary {
     color: #FFFFFF;
     font-weight: 700;
@@ -23,16 +25,19 @@
     background-position: bottom right, left;
 
 }
+
 /* header and nevigation styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
 }
+
 .nav-title {
     font-weight: 800;
     font-size: 45px;
 }
+
 nav ul {
     display: flex;
     align-items: centers;
@@ -42,28 +47,36 @@ nav li {
     list-style: none;
     margin-left: 50px;
 }
+
 /* banner styles */
 .banner {
     margin: 0 200px;
     display: flex;
     align-items: center;
 }
+
 .banner-title {
     font-weight: 700;
     font-size: 85px;
 }
-.banner-sub-title{
+
+.banner-sub-title {
     font-weight: 600;
     font-size: 45px;
     margin-bottom: 20;
 }
+
 .banner-description {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
 }
+.section {
+    margin-top: 30px;
+}
+
 /* main section */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -71,32 +84,64 @@ main{
 /* about section styles */
 
 .about {
-margin-top: 130PX;
-background: #FFF8F3;
-border-radius: 10px;
-padding: 130px 150px;
-text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
 }
-.section-title{
+
+.section-title {
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
     margin-bottom: 30px;
 }
-.section-description{
-   color:#757575 ; 
-   font-size: 18px;
-   margin-bottom: 30px;
-}
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about .info-title{
+
+.about .info-title {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
 }
+
+/* what i do styles */
+
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+skill-description {
+    color: #757575;
+}
+/* Resume styles */
